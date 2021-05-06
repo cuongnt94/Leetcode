@@ -6,6 +6,7 @@ Permutation, combination of sum, N Queen.
 How to sort List<>:
 Collections.sort(intervals, Comparator.comparing((int x)->x[0]));
 
+Arrays.sort(logs, (a, b) -> a[0] - b[0]);
 
 maxHeap = new PriorityQueue<>(Comparator.reverseOrder());
 
