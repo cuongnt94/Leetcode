@@ -17,4 +17,6 @@ Arrays.sort(list, new Comparator<String>() {
             }
         });
 
+int[] arr = new int[5]; 
+List<Integer> list = Arrays.stream(arr).boxed().collect(Collectors.toList());
 
